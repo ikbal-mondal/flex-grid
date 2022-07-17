@@ -1,0 +1,146 @@
+/* form start */
+
+#login_container {
+
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 60px auto;
+    background-color: rgb(200, 223, 215);
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+input {
+
+    font-size: 25px;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+
+#submit {
+
+    background-color: crimson;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+a {
+
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+}
+
+.manu {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    /* color: white; */
+}
+
+
+/* form end */
+
+/* grid */
+
+.container_grid {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+
+
+}
+
+.item {
+
+    border: 1px solid red;
+}
+
+
+#calender_container {
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 10px;
+    column-gap: 15px;
+
+
+}
+
+
+.boxs {
+
+    background-color: rgb(126, 235, 229);
+    height: 60px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+
+}
+
+.ather_month {
+
+    background-color: lightgray;
+}
+
+.day {
+
+
+    background-color: rgb(9, 99, 218);
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+
+
+
+#webpage {
+
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 15px;
+
+
+}
+
+
+
+.contain {
+
+    border-radius: 7px;
+    padding: 10px;
+
+
+}
+
+#food_images {
+
+    width: 100%;
+}
+
+button {
+    background: #00a1ff;
+    padding: 10px 45px;
+    border-radius: 7px;
+    border: none;
+    font-size: 16px;
+    color: black;
+}
